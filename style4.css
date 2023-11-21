@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.menu-bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.menu-bar1{
+    width: 20%;
+    height: 100px;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    color: cyan;
+}
+.menu-bar2{
+    width: 70%;
+    height: 100px;
+    float: left;
+}
+.menu-bar2 ul{
+    display: flex;
+    /* align-items: center; */
+}
+.menu-bar2 ul li{
+    display: flex;
+    align-items: center;
+}
+.menu-bar2 ul li a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px 15px;
+    color: black;
+}
+.menu-bar2 ul li a:hover{
+    background-color: aqua;
+}
+.menu-bar3{
+    width: 15%;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+.menu-bar3 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bar3 ul li a{
+    display: block;
+    font-size: 20px;
+    color: black;
+    padding: 30px 10px;
+}
+.menu-bar3 ul li a input{
+    width:250px;
+    position: absolute;
+    left: -200px;
+    top: 20px;
+    border:1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.box1{
+    width: 100%;
+    height: 250px;
+    /* background-color: blueviolet; */
+    font-size: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2{
+    width: 50%;
+    height: 400px;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+}
+.box2 input{
+    width: 100%;
+    height: 20px;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.box2 a{
+    background-color: red;
+    padding: 10px 40px;
+    position: absolute;
+    color: white;
+    border-radius: 40px;
+    left: 40%;
+    bottom: 0;
+    cursor: pointer;
+    text-decoration: none;
+
+}
